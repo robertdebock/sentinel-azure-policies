@@ -20,5 +20,5 @@ jobs:
           ls -l
           chmod +x sentinel
           ls -l
-          ./sentinel
+          ./sentinel test
           ls -l
