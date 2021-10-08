@@ -1,6 +1,36 @@
 {
 	"records": [
 		{
+			"key": "test/enforce_mandatory_tags/fail/tfplan-functions",
+			"source": "../../functions/tfplan.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/robertdb/Documents/github.com/robertdebock/sentinel-azure-policies/functions/tfplan.sentinel"
+		},
+		{
+			"key": "test/mandatory_tags/fail/azure-functions",
+			"source": "../../functions/azure.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/robertdb/Documents/github.com/robertdebock/sentinel-azure-policies/functions/azure.sentinel"
+		},
+		{
+			"key": "test/mandatory_tags/fail/tfplan-functions",
+			"source": "../../functions/tfplan.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/robertdb/Documents/github.com/robertdebock/sentinel-azure-policies/functions/tfplan.sentinel"
+		},
+		{
+			"key": "test/mandatory_tags/pass/azure-functions",
+			"source": "../../functions/azure.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/robertdb/Documents/github.com/robertdebock/sentinel-azure-policies/functions/azure.sentinel"
+		},
+		{
+			"key": "test/mandatory_tags/pass/tfplan-functions",
+			"source": "../../functions/tfplan.sentinel",
+			"sourceSum": "",
+			"dest": "/Users/robertdb/Documents/github.com/robertdebock/sentinel-azure-policies/functions/tfplan.sentinel"
+		},
+		{
 			"key": "test/enforce_mandatory_tags/pass/azure-functions",
 			"source": "../../functions/azure.sentinel",
 			"sourceSum": "",
@@ -17,12 +47,6 @@
 			"source": "../../functions/azure.sentinel",
 			"sourceSum": "",
 			"dest": "/Users/robertdb/Documents/github.com/robertdebock/sentinel-azure-policies/functions/azure.sentinel"
-		},
-		{
-			"key": "test/enforce_mandatory_tags/fail/tfplan-functions",
-			"source": "../../functions/tfplan.sentinel",
-			"sourceSum": "",
-			"dest": "/Users/robertdb/Documents/github.com/robertdebock/sentinel-azure-policies/functions/tfplan.sentinel"
 		}
 	]
 }
