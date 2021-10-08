@@ -12,7 +12,9 @@ jobs:
       - name: checkout
         uses: actions/checkout@master
       - name: test
-        uses: volcano-coffee-company/setup-sentinel@v1
-        with:
-          version: '0.13'
-      - run: sentinel test
+        uses: docker://alpine:3.8
+        run: |
+          curl --location --output sentinel.zip https://releases.hashicorp.com/sentinel/0.18.4/sentinel_0.18.4_linux_amd64.zip
+          unzip sentinel.zip
+          chmod +x sentinel
+          sentinel
