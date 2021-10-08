@@ -13,12 +13,7 @@ jobs:
         uses: actions/checkout@master
       - name: test
         run: |
-          ls -l
           curl --location --output sentinel.zip https://releases.hashicorp.com/sentinel/0.18.4/sentinel_0.18.4_linux_amd64.zip
-          ls -l
           unzip sentinel.zip
-          ls -l
           chmod +x sentinel
-          ls -l
           ./sentinel test
-          ls -l
